@@ -1,0 +1,62 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: linear-gradient(#111111,#777777);
+    height: 500px;
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding: 10px 0;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: space-evenly;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin: 20px 0;
+}
+.logo{
+    font-size: 36px;
+    font-weight: 800;
+    font-family: "Inter";
+    color: rgb(230, 83, 60);
+}
+.menu-icon{
+    color: white;
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-item{
+    padding: 5px 10px;
+    border-radius: 45px;
+    transition-duration: 300ms;
+}
+.nav-item:hover{
+    background: rgb(230, 83, 60);
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);;
+    font-family: "Inter";
+}
+
+/* h2{
+    font-family: 'Miama', sans-serif;
+    font-family: 'Inter', sans-serif;                                          
+} */
