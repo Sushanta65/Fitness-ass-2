@@ -1,8 +1,44 @@
-@media screen and (max-width:576px) {
-    .nav-items{
-        display: none;
-    }
-    .menu-icon{
-        display: block;
-    }
+@media screen and (max-width: 576px) {
+  .nav-items {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  /* Banner Secion */
+  .banner-section {
+    display: block;
+  }
+  .banner-title {
+    font-size: 35px;
+    line-height: 50px;
+    padding-top: 50px;
+  }
+  .btn {
+    padding: 5px 20px;
+  }
+  .banner {
+    width: 100%;
+  }
+  .banner-img img{
+    width: 80%;
+  }
+  .exersice{
+    position: absolute;
+    top:20px;
+    right: 10px;
+    background: rgba(48, 48, 48, 0.54);
+    padding: 15px 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+  .exersice-count {
+    position: absolute;
+    bottom: 100px;
+    left: -10px;
+    background: rgba(48, 48, 48, 0.54);
+    padding: 15px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+  }
 }
