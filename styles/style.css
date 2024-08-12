@@ -92,8 +92,12 @@
     border: 2px solid white;
     margin-left: 10px;
 }
-
-
+.hidden{
+    display: none;
+}
+.buttons{
+    display: flex;
+}
 .banner-img{
     position: relative;
 }
