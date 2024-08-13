@@ -91,6 +91,13 @@ body{
     padding: 20px 0;
     font-family: "Inter";
 }
+.join-btn{
+    border: none;
+    transition-duration: 300ms;
+}
+.join-btn:hover{
+    background: rgb(196, 40, 17);;
+}
 .download-btn{
     background: none;
     outline: none;
@@ -345,7 +352,7 @@ body{
 .footer-section{
     width: 100%;
     background: rgba(255, 255, 255, 0.1);
-    
+    margin-top: 30px;
 }
 
 .footer-content{
@@ -362,9 +369,53 @@ body{
     color: rgb(230, 83, 60);
     font-family: "Inter";
     padding-bottom: 10px;
+    font-size: 70px;
 }
 .fitness-logo p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-family: "Inter";
+}
+
+.links h2{
+    color: white;
+    padding: 10px 0;
+    font-family: "Inter";
+    font-size: 32px;
+}
+
+.links ul{
+    list-style: none;
+}
+.links li{
+    padding-top: 10px;
+}
+.links li:hover > a{
+    text-decoration: underline;
+}
+.links li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter";
+    font-size: 15px;
+}
+
+
+/* Footer */
+
+.footer{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+}
+.footer-texts{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-texts hr{
+    opacity: 0.3;
+}
+.footer-texts p{
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
 }

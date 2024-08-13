@@ -94,4 +94,14 @@
   .team-head h2{
     font-size: 32px;
   }
+
+  /* Footer Section */
+
+  .footer-content{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .fitness-logo{
+    width: 100%;
+  }
 }
