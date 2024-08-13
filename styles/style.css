@@ -6,7 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background: #000;
+}
 .header{
     background: linear-gradient(#111111,#777777, #111111);
 }
@@ -150,4 +152,50 @@
 }
 .box-side p{
     color: rgba(239, 237, 232, 0.65)
+}
+
+
+
+/* Habit Change section */
+
+.habit-section{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-family: "Inter";
+}
+.habit-head{
+    text-align: center;
+    padding: 50px 0;
+}
+.habit-head h2{
+    font-size: 48px;
+    padding: 15px 0;
+}
+.habit-head p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.habit-change{
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.habit{
+    width: 100%;
+}
+.habit img{
+    border-radius: 50%;
+}
+.habit-title{
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.habit-description{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
 }
