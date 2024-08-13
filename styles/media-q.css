@@ -63,4 +63,35 @@
     font-size: 40px;
   }
 
+  /* Running Section */
+
+  .running-section{
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+  .running-advice h2{
+    width: 100%;
+    font-size: 32px;
+  }
+  .running-advice p{
+    width: 100%;
+    padding: 0;
+  }
+  .join-now-btn{
+    width: 100%;
+  }
+
+
+  /* Team Meeting Section */
+  .team-persons{
+    flex-direction: column;
+  }
+  .team-person{
+    width: 95%;
+    margin-top: 10px;
+  }
+  .team-head h2{
+    font-size: 32px;
+  }
 }
