@@ -581,6 +581,7 @@ select > option {
 }
 .blog {
   color: white;
+  cursor: pointer;
 }
 .blog h3 {
   font-size: 18px;
@@ -610,4 +611,33 @@ select > option {
 .blog img {
   width: 100%;
   border-radius: 18px;
+  transition-duration: 300ms;
+  opacity: 0.6;
+  
+}
+.blog:hover > img{
+    transform:scale(1.1);
+    opacity: 1;
+}
+
+.more-blogs{
+    color: white;
+    padding: 40px 0 0 0;
+    text-align: right;
+    margin: 0 auto;
+    
+}
+.more-blogs h3{
+    font-family: "Inter";
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: inline;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: 300ms;
+}
+.more-blogs h3:hover{
+    background: rgba(255, 255, 255, 0.3);
 }
