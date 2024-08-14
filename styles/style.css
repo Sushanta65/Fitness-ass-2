@@ -202,7 +202,7 @@ body{
 }
 .habit-title{
     font-size: 18px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .habit-description{
@@ -437,7 +437,7 @@ select > option{
     background-color: #EEE;
 }
 .person-3{
-    background-image: url("../images/trainer4.png");
+    background-image: url("../images/trainer7.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
