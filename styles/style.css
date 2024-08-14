@@ -543,3 +543,69 @@ select > option{
     padding-top: 20px;
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* Blogs Section */
+.blogs-section{
+    width: 100%;
+}
+.blogs-head{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding: 30px 0 50px 0;
+}
+.blogs-head h2{
+    font-size: 48px;
+    font-family: "Inter";
+}
+.blogs-head p{
+    font-size: 14px;
+    font-family: "Inter";
+    color: rgba(255, 255, 255, 0.5);
+}
+.blogs-content{
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 18px;
+}
+.blogs{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.blog{
+    color: white;
+}
+.blog h3{
+   font-size: 18px;
+   padding: 15px 0;
+   font-family: "Inter";
+}
+.blog p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    font-family: "Inter";
+    padding: 5px 0;
+}
+.read-more{
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);;
+    padding: 5px 10px;
+    border-radius: 18px;
+    font-size: 14px;
+    font-family: "Inter";
+}
+.read-more:hover{
+    text-decoration: underline;
+}
+.blog img{
+    width: 100%;
+    border-radius: 18px;
+}
