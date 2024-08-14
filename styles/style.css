@@ -1,613 +1,605 @@
-@import url('https://fonts.cdnfonts.com/css/miama');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.cdnfonts.com/css/miama");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background: #000;
+body {
+  background: #000;
 }
-.header{
-    background: linear-gradient(#111111,#777777, #111111);
+.header {
+  background: linear-gradient(#111111, #777777, #111111);
 }
-.navbar{
-    width: 80%;
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 20px;
-    padding: 10px 0;
+.navbar {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding: 10px 0;
 }
-.nav-items{
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    justify-content: space-evenly;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 5px 10px;
-    border-radius: 50px;
-    margin: 20px 0;
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: space-evenly;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin: 20px 0;
 }
-.logo{
-    font-size: 36px;
-    font-weight: 800;
-    font-family: "Inter";
-    color: rgb(230, 83, 60);
+.logo {
+  font-size: 36px;
+  font-weight: 800;
+  font-family: "Inter";
+  color: rgb(230, 83, 60);
 }
-.menu-icon{
-    color: white;
-    display: none;
-    font-size: 20px;
-    cursor: pointer;
+.menu-icon {
+  color: white;
+  display: none;
+  font-size: 20px;
+  cursor: pointer;
 }
-.nav-item{
-    padding: 5px 10px;
-    border-radius: 45px;
-    transition-duration: 300ms;
+.nav-item {
+  padding: 5px 10px;
+  border-radius: 45px;
+  transition-duration: 300ms;
 }
-.nav-item:hover{
-    background: rgb(230, 83, 60);
+.nav-item:hover {
+  background: rgb(230, 83, 60);
 }
-.active{
-    background: rgb(230, 83, 60);
+.active {
+  background: rgb(230, 83, 60);
 }
-.nav-link{
-    text-decoration: none;
-    color: rgb(255, 255, 255);;
-    font-family: "Inter";
+.nav-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Inter";
 }
 
 /* Banner Section Styles */
 
-.banner-section{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.banner-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.banner{
-    width: 50%;
+.banner {
+  width: 50%;
 }
-.banner-title{
-    font-size: 60px;
-    color: white;
-    font-family: 'Inter';
-    font-weight: 900;
-    padding: 10px 0;
-    line-height: 60px;
+.banner-title {
+  font-size: 60px;
+  color: white;
+  font-family: "Inter";
+  font-weight: 900;
+  padding: 10px 0;
+  line-height: 60px;
 }
-.shape-text{
-    font-family: "Miama";
-    font-weight: 300;
-    font-size: 80px;
+.shape-text {
+  font-family: "Miama";
+  font-weight: 300;
+  font-size: 80px;
 }
-.banner-description{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
-    padding: 20px 0;
-    font-family: "Inter";
+.banner-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  padding: 20px 0;
+  font-family: "Inter";
 }
-.join-btn{
-    border: none;
-    transition-duration: 300ms;
+.join-btn {
+  border: none;
+  transition-duration: 300ms;
 }
-.join-btn:hover{
-    background: rgb(196, 40, 17);;
+.join-btn:hover {
+  background: rgb(196, 40, 17);
 }
-.download-btn{
-    background: none;
-    outline: none;
-    border: 2px solid white;
-    margin-left: 10px;
+.download-btn {
+  background: none;
+  outline: none;
+  border: 2px solid white;
+  margin-left: 10px;
 }
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
-.buttons{
-    display: flex;
+.buttons {
+  display: flex;
 }
-.banner-img{
-    position: relative;
+.banner-img {
+  position: relative;
 }
-.banner.img img{
-    width: 100%;
+.banner.img img {
+  width: 100%;
 }
-.exersice{
-    position: absolute;
-    top:120px;
-    right: 10px;
-    background: rgba(48, 48, 48, 0.54);
-    padding: 15px 30px;
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
+.exersice {
+  position: absolute;
+  top: 120px;
+  right: 10px;
+  background: rgba(48, 48, 48, 0.54);
+  padding: 15px 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
 }
-.exersice-count{
-    position: absolute;
-    bottom:100px;
-    left: -110px;
-    background: rgba(48, 48, 48, 0.54);
-    padding: 15px 20px;
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
+.exersice-count {
+  position: absolute;
+  bottom: 100px;
+  left: -110px;
+  background: rgba(48, 48, 48, 0.54);
+  padding: 15px 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
 }
-.exersice-count{
-    display: flex;
-    gap: 10px;
-    align-items: center;
+.exersice-count {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
-.exersice h4{
-    font-size: 24px;
-    color: white;
-    font-family: "Inter";
-    padding: 5px 0;
+.exersice h4 {
+  font-size: 24px;
+  color: white;
+  font-family: "Inter";
+  padding: 5px 0;
 }
-.exersice p{
-    color: rgba(239, 237, 232, 0.65)
+.exersice p {
+  color: rgba(239, 237, 232, 0.65);
 }
-.box{
-    width: 30px;
-    height: 30px;
-    background: rgb(230, 83, 60);;
-    border-radius: 50%;
+.box {
+  width: 30px;
+  height: 30px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
 }
-.box-side h4{
-    font-size: 24px;
-    color: white;
-    font-family: "Inter";
-    padding: 5px 0;
+.box-side h4 {
+  font-size: 24px;
+  color: white;
+  font-family: "Inter";
+  padding: 5px 0;
 }
-.box-side p{
-    color: rgba(239, 237, 232, 0.65)
+.box-side p {
+  color: rgba(239, 237, 232, 0.65);
 }
-
-
 
 /* Habit Change section */
 
-.habit-section{
-    width: 80%;
-    margin: 0 auto;
-    color: white;
-    font-family: "Inter";
+.habit-section {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  font-family: "Inter";
 }
-.habit-head{
-    text-align: center;
-    padding-top: 50px;
+.habit-head {
+  text-align: center;
+  padding-top: 50px;
 }
-.habit-head h2{
-    font-size: 48px;
-    padding: 15px 0;
+.habit-head h2 {
+  font-size: 48px;
+  padding: 15px 0;
 }
-.habit-head p{
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
+.habit-head p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
 }
-.habit-change{
-    padding: 50px 0;
-    text-align: center;
-    display: flex;
-    gap:20px;
-    align-items: center;
-    justify-content: space-between;
+.habit-change {
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
 }
-.habit{
-    width: 100%;
+.habit {
+  width: 100%;
 }
-.habit img{
-    border-radius: 50%;
+.habit img {
+  border-radius: 50%;
 }
-.habit-title{
-    font-size: 18px;
-    padding: 10px 0;
+.habit-title {
+  font-size: 18px;
+  padding: 10px 0;
 }
 
-.habit-description{
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
+.habit-description {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* Running Section */
 
-.running-section{
-    color: white;
-    width: 80%;
-    margin: 50px auto;
-    background: rgb(34, 34, 34);
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    gap: 80px;
-    border-radius: 18px;
+.running-section {
+  color: white;
+  width: 80%;
+  margin: 50px auto;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 80px;
+  border-radius: 18px;
 }
-.running-advice h2{
-    font-size: 48px;
-    font-family: "Inter";
-    padding-bottom: 20px;
-    width: 50%;
+.running-advice h2 {
+  font-size: 48px;
+  font-family: "Inter";
+  padding-bottom: 20px;
+  width: 50%;
 }
-.running-advice p{
-    font-size: 14px;
-    font-family: "Inter";
-    color: rgba(255, 255, 255, 0.5);
-    width: 75%;
-    padding: 10px 0;
+.running-advice p {
+  font-size: 14px;
+  font-family: "Inter";
+  color: rgba(255, 255, 255, 0.5);
+  width: 75%;
+  padding: 10px 0;
 }
-.join-now-btn{
-    background: rgb(230, 83, 60);
-    outline: none;
-    border: none;
-    margin: 30px 0 0 0;
-    transition-duration: 300ms;
+.join-now-btn {
+  background: rgb(230, 83, 60);
+  outline: none;
+  border: none;
+  margin: 30px 0 0 0;
+  transition-duration: 300ms;
 }
-.join-now-btn:hover{
-    background: rgb(194, 66, 46);
+.join-now-btn:hover {
+  background: rgb(194, 66, 46);
+}
 
-}
-
-.runner img{
-    width: 100%;
-    border-radius: 18px;
+.runner img {
+  width: 100%;
+  border-radius: 18px;
 }
 /* BMI Calculator */
 
-.calc-head{
-    color: white;
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 30px;
+.calc-head {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
-.calc-head h2{
-    font-size: 48px;
-    font-family: "Inter";
-    padding: 20px 0;
+.calc-head h2 {
+  font-size: 48px;
+  font-family: "Inter";
+  padding: 20px 0;
 }
-.calc-head p{
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: "Inter";
+.calc-head p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Inter";
 }
-.calculator{
-    color: white;
-    width: 100%;
-    background: rgb(34, 34, 34);
-    padding: 50px 0;
+.calculator {
+  color: white;
+  width: 100%;
+  background: rgb(34, 34, 34);
+  padding: 50px 0;
 }
-.calc-contents{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+.calc-contents {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
-.table{
-    border-color: rgba(255, 255, 255, 0.1);
-    border-collapse: collapse;
+.table {
+  border-color: rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
 }
-th{
-    padding: 10px 20px;
-    font-family: "Inter"; 
-    font-size: 16px;
-    text-align: left;
-    color: rgb(255, 255, 255);;
+th {
+  padding: 10px 20px;
+  font-family: "Inter";
+  font-size: 16px;
+  text-align: left;
+  color: rgb(255, 255, 255);
 }
-td{
-    padding: 10px 20px;
-    font-family: "Inter";
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.calc-chart h3{
-    padding-bottom:30px ;
-    font-size: 28px;
-    font-family: "Inter";
+td {
+  padding: 10px 20px;
+  font-family: "Inter";
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-
-
-.calc-account h3{
-    font-size: 28px;
-    font-family: "Inter";
-    color: rgb(255, 255, 255);
-    padding-bottom: 10px;
-} 
- .calc-account p{
-    font-size: 14px;
-    color:rgba(255, 255, 255, 0.5);
-    font-family: "inter";
-    padding-bottom: 10px;
+.calc-chart h3 {
+  padding-bottom: 30px;
+  font-size: 28px;
+  font-family: "Inter";
 }
 
-.calculate-input{
-    margin-top: 20px;
+.calc-account h3 {
+  font-size: 28px;
+  font-family: "Inter";
+  color: rgb(255, 255, 255);
+  padding-bottom: 10px;
 }
-.box-1{
-    width: 45%;
-}
-.box-2{
-    width: 45%;
-}
-.box-3{
-    width: 45%;
-}
-.box-4{
-    width: 45%;
-}
-.box-5{
-    width: 92%;
-}
-input::placeholder{
-    color: rgba(255, 255, 255, 0.6);
-}
-input:focus{
-    border: 1px solid rgb(194, 66, 46);
-}
-select:focus{
-    border: 1px solid rgb(194, 66, 46);
-}
-select{
-    color: rgba(255, 255, 255, 0.6);
-}
-select > option{
-    background: #2b292a;
-}
-.input-box{
-    background: rgba(255, 255, 255, 0.1);
-    padding: 13px 20px;
-    border: none;
-    outline: none;
-    margin: 5px;
-    color: rgba(255, 255, 255, 0.6);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
+.calc-account p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "inter";
+  padding-bottom: 10px;
 }
 
-.calc-btn{
-    background: rgb(194, 66, 46);
-    outline: none;
-    border: none;
-    margin-top: 20px;
-    margin-left: 5px;
-    padding: 13px 70px;
-    transition-duration: 300ms;
+.calculate-input {
+  margin-top: 20px;
 }
-.calc-btn:hover{
-    background: rgb(207, 49, 24);;
+.box-1 {
+  width: 45%;
+}
+.box-2 {
+  width: 45%;
+}
+.box-3 {
+  width: 45%;
+}
+.box-4 {
+  width: 45%;
+}
+.box-5 {
+  width: 92%;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+input:focus {
+  border: 1px solid rgb(194, 66, 46);
+}
+select:focus {
+  border: 1px solid rgb(194, 66, 46);
+}
+select {
+  color: rgba(255, 255, 255, 0.6);
+}
+select > option {
+  background: #2b292a;
+}
+.input-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 13px 20px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.calc-btn {
+  background: rgb(194, 66, 46);
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  margin-left: 5px;
+  padding: 13px 70px;
+  transition-duration: 300ms;
+}
+.calc-btn:hover {
+  background: rgb(207, 49, 24);
 }
 /* Team Meeting Section */
 
-.team-meeting{
-    margin: 0 auto;
-    color: white;
-    
-    padding: 15px 10px;
-}
-.team-head{
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px 0;
-}
-.team-head h2{
-    font-size: 48px;
-    font-family: "Inter";
-    padding: 10px 0;
-}
-.team-head p{
-    font-size: 14px;
-    font-family: "Inter";
-    color: rgba(255, 255, 255, 0.5);
-}
-.team-members{
-    width: 80%;
-    margin: 30px auto;
-    background:rgba(255, 255, 255, 0.1);
-    padding:10px;
-    border-radius: 18px;
-}
-.team-persons{
-    display: flex;
-    margin: 0 auto;
-    border-radius: 18px;
-}
-.members{
-    padding-top: 5px;
-}
-.team-person{
-    width: 33.33%;
-    height: 300px;
-    border-radius: 18px;
-    margin: 10px;
-}
-.person-1{
-    background-image: url("../images/trainer2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.person-2{
-    background-image: url("../images/trainer1.png");
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-color: #EEE;
-}
-.person-3{
-    background-image: url("../images/trainer7.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.person-4{
-    background-image: url("../images/trainer5.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.person-5{
-    background-image: url("../images/trainer3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.person-6{
-    background-image: url("../images/trainer6.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.person-details{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-}
-.person-details p{
-    color: rgba(255, 255, 255, 0.5);;
-}
+.team-meeting {
+  margin: 0 auto;
+  color: white;
 
+  padding: 15px 10px;
+}
+.team-head {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+.team-head h2 {
+  font-size: 48px;
+  font-family: "Inter";
+  padding: 10px 0;
+}
+.team-head p {
+  font-size: 14px;
+  font-family: "Inter";
+  color: rgba(255, 255, 255, 0.5);
+}
+.team-members {
+  width: 80%;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 18px;
+}
+.team-persons {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 18px;
+}
+.members {
+  padding-top: 5px;
+}
+.team-person {
+  width: 33.33%;
+  height: 300px;
+  border-radius: 18px;
+  margin: 10px;
+}
+.person-1 {
+  background-image: url("../images/trainer2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.person-2 {
+  background-image: url("../images/trainer1.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: #eee;
+}
+.person-3 {
+  background-image: url("../images/trainer7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.person-4 {
+  background-image: url("../images/trainer5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.person-5 {
+  background-image: url("../images/trainer3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.person-6 {
+  background-image: url("../images/trainer6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.person-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+.person-details p {
+  color: rgba(255, 255, 255, 0.5);
+}
 
 /* Footer Section */
 
-.footer-section{
-    width: 100%;
-    background: rgba(255, 255, 255, 0.1);
-    margin-top: 30px;
+.footer-section {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
 }
 
-.footer-content{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 0;
+.footer-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
 }
-.fitness-logo{
-    width: 50%;
+.fitness-logo {
+  width: 50%;
 }
-.fitness-logo h1{
-    color: rgb(230, 83, 60);
-    font-family: "Inter";
-    padding-bottom: 10px;
-    font-size: 70px;
+.fitness-logo h1 {
+  color: rgb(230, 83, 60);
+  font-family: "Inter";
+  padding-bottom: 10px;
+  font-size: 70px;
 }
-.fitness-logo p{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    font-family: "Inter";
-}
-
-.links h2{
-    color: white;
-    padding: 10px 0;
-    font-family: "Inter";
-    font-size: 32px;
+.fitness-logo p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-family: "Inter";
 }
 
-.links ul{
-    list-style: none;
-}
-.links li{
-    padding-top: 10px;
-}
-.links li:hover > a{
-    text-decoration: underline;
-}
-.links li a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: "Inter";
-    font-size: 15px;
+.links h2 {
+  color: white;
+  padding: 10px 0;
+  font-family: "Inter";
+  font-size: 32px;
 }
 
+.links ul {
+  list-style: none;
+}
+.links li {
+  padding-top: 10px;
+}
+.links li:hover > a {
+  text-decoration: underline;
+}
+.links li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Inter";
+  font-size: 15px;
+}
 
 /* Footer */
 
-.footer{
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px 0;
+.footer {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
 }
-.footer-texts{
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+.footer-texts {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
-.footer-texts hr{
-    opacity: 0.3;
+.footer-texts hr {
+  opacity: 0.3;
 }
-.footer-texts p{
-    padding-top: 20px;
-    color: rgba(255, 255, 255, 0.5);
+.footer-texts p {
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* Blogs Section */
-.blogs-section{
-    width: 100%;
+.blogs-section {
+  width: 100%;
 }
-.blogs-head{
-    width: 80%;
-    margin: 0 auto;
-    color: white;
-    padding: 30px 0 50px 0;
-    text-align: center;
+.blogs-head {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  padding: 30px 0 50px 0;
+  text-align: center;
 }
-.blogs-head h2{
-    font-size: 48px;
-    font-family: "Inter";
-    padding: 10px 0;
+.blogs-head h2 {
+  font-size: 48px;
+  font-family: "Inter";
+  padding: 10px 0;
 }
-.blogs-head p{
-    font-size: 14px;
-    font-family: "Inter";
-    color: rgba(255, 255, 255, 0.5);
+.blogs-head p {
+  font-size: 14px;
+  font-family: "Inter";
+  color: rgba(255, 255, 255, 0.5);
 }
-.blogs-content{
-    width: 80%;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 30px;
-    border-radius: 18px;
+.blogs-content {
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 18px;
 }
-.blogs{
-    display: flex;
-    gap: 20px;
-    justify-content: flex-start;
-    align-items: center;
-    
+.blogs {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
 }
-.blog{
-    color: white;
+.blog {
+  color: white;
 }
-.blog h3{
-   font-size: 18px;
-   padding: 15px 0;
-   font-family: "Inter";
+.blog h3 {
+  font-size: 18px;
+  padding: 15px 0;
+  font-family: "Inter";
 }
-.blog p{
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 20px;
-    font-family: "Inter";
-    padding: 5px 0;
+.blog p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+  font-family: "Inter";
+  padding: 5px 0;
 }
-.read-more{
-    margin-top: 10px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.1);;
-    padding: 5px 10px;
-    border-radius: 18px;
-    font-size: 14px;
-    font-family: "Inter";
+.read-more {
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  border-radius: 18px;
+  font-size: 14px;
+  font-family: "Inter";
 }
-.read-more:hover{
-    text-decoration: underline;
+.read-more:hover {
+  text-decoration: underline;
 }
-.blog img{
-    width: 100%;
-    border-radius: 18px;
+.blog img {
+  width: 100%;
+  border-radius: 18px;
 }

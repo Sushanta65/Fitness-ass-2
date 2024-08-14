@@ -107,7 +107,7 @@
     flex-direction: column;
   }
   .team-person{
-    width: 95%;
+    width: 94%;
     margin-top: 10px;
   }
   .team-head h2{
@@ -135,7 +135,7 @@
 }
 .blogs-head h2{
   font-size: 32px;
-  
+
 }
 
 }
