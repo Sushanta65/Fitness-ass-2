@@ -176,7 +176,7 @@ body{
 }
 .habit-head{
     text-align: center;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 .habit-head h2{
     font-size: 48px;
@@ -553,10 +553,12 @@ select > option{
     margin: 0 auto;
     color: white;
     padding: 30px 0 50px 0;
+    text-align: center;
 }
 .blogs-head h2{
     font-size: 48px;
     font-family: "Inter";
+    padding: 10px 0;
 }
 .blogs-head p{
     font-size: 14px;

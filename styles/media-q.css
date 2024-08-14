@@ -127,4 +127,15 @@
     width: 100%;
   }
  
+/* Blogs Section */
+
+.blogs{
+  flex-direction: column;
+  gap: 60px;
+}
+.blogs-head h2{
+  font-size: 32px;
+  
+}
+
 }
