@@ -82,6 +82,25 @@
     width: 100%;
   }
 
+  /* BMI Calculator */
+  .calc-contents{
+    flex-direction: column;
+  }
+  .calc-head h2{
+    font-size: 32px;
+  }
+  .calc-chart h3, .calc-account h3{
+    font-size: 20px;
+  }
+  .calc-account h3{
+    padding-top: 30px;
+  }
+  .box-5{
+    width: 94%;
+  }
+  .calc-btn{
+    padding: 13px 80px;
+  }
 
   /* Team Meeting Section */
   .team-persons{
@@ -97,6 +116,9 @@
 
   /* Footer Section */
 
+  .calculator{
+    padding: 30px 0;
+  }
   .footer-content{
     flex-direction: column;
     gap: 20px;
@@ -104,4 +126,5 @@
   .fitness-logo{
     width: 100%;
   }
+ 
 }

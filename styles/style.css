@@ -252,7 +252,131 @@ body{
     width: 100%;
     border-radius: 18px;
 }
+/* BMI Calculator */
 
+.calc-head{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.calc-head h2{
+    font-size: 48px;
+    font-family: "Inter";
+    padding: 20px 0;
+}
+.calc-head p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter";
+}
+.calculator{
+    color: white;
+    width: 100%;
+    background: rgb(34, 34, 34);
+    padding: 50px 0;
+}
+.calc-contents{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    border-color: rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+th{
+    padding: 10px 20px;
+    font-family: "Inter"; 
+    font-size: 16px;
+    text-align: left;
+    color: rgb(255, 255, 255);;
+}
+td{
+    padding: 10px 20px;
+    font-family: "Inter";
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.calc-chart h3{
+    padding-bottom:30px ;
+    font-size: 28px;
+    font-family: "Inter";
+}
+
+
+
+.calc-account h3{
+    font-size: 28px;
+    font-family: "Inter";
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+} 
+ .calc-account p{
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.5);
+    font-family: "inter";
+    padding-bottom: 10px;
+}
+
+.calculate-input{
+    margin-top: 20px;
+}
+.box-1{
+    width: 45%;
+}
+.box-2{
+    width: 45%;
+}
+.box-3{
+    width: 45%;
+}
+.box-4{
+    width: 45%;
+}
+.box-5{
+    width: 92%;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+input:focus{
+    border: 1px solid rgb(194, 66, 46);
+}
+select:focus{
+    border: 1px solid rgb(194, 66, 46);
+}
+select{
+    color: rgba(255, 255, 255, 0.6);
+}
+select > option{
+    background: #2b292a;
+}
+.input-box{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 13px 20px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.calc-btn{
+    background: rgb(194, 66, 46);
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 13px 70px;
+    transition-duration: 300ms;
+}
+.calc-btn:hover{
+    background: rgb(207, 49, 24);;
+}
 /* Team Meeting Section */
 
 .team-meeting{
